@@ -1,0 +1,15 @@
+{
+  "$id": "c_baseURL",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "Stores the raw website URL shared by Linde.",
+  "displayName": "Base URL",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "stringType": {
+      "stereotype": "URL",
+      "maxLength": 2000
+    }
+  },
+  "typeId": "string"
+}

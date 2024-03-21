@@ -1,0 +1,171 @@
+{
+  "$id": "ce_site",
+  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
+  "entityType": "ce_site",
+  "displayName": "Site",
+  "presentationEntries": [
+    {
+      "displayName": "Content",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Core Information",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "name",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "entityId",
+          "visibleOnAdd": true
+        }
+      ]
+    },
+    {
+      "displayName": "Header",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "c_header"
+        },
+        {
+          "id": "c_lindeTopHeader"
+        },
+        {
+          "id": "c_headerIcons"
+        }
+      ]
+    },
+    {
+      "displayName": "Footer",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "c_copyrightMessage"
+        },
+        {
+          "id": "c_footerLinks"
+        }
+      ]
+    },
+    {
+      "displayName": "Translations",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "c_contactUs"
+        },
+        {
+          "id": "c_getDirections"
+        },
+        {
+          "id": "c_findMoreLocations"
+        },
+        {
+          "id": "c_openingTimes"
+        },
+        {
+          "id": "c_productsAtThisLocation"
+        },
+        {
+          "id": "c_nearbyLocations"
+        },
+        {
+          "id": "c_transportationPossible"
+        },
+        {
+          "id": "c_storeDetails"
+        },
+        {
+          "id": "c_directoryTitle"
+        }
+      ]
+    },
+    {
+      "displayName": "Opening times/hours translations",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "c_openNow"
+        },
+        {
+          "id": "c_openUntil"
+        },
+        {
+          "id": "c_opensAt"
+        },
+        {
+          "id": "c_open24h"
+        },
+        {
+          "id": "c_closed"
+        },
+        {
+          "id": "c_closedUntil"
+        },
+        {
+          "id": "c_closedTemporarily"
+        }
+      ]
+    },
+    {
+      "displayName": "Social Links",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "c_facebook"
+        },
+        {
+          "id": "c_youtube"
+        },
+        {
+          "id": "c_twitter"
+        },
+        {
+          "id": "c_linkedIn"
+        },
+        {
+          "id": "c_instagram"
+        }
+      ]
+    },
+    {
+      "displayName": "Icon Footer",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "c_lindeIconFooter"
+        }
+      ]
+    },
+    {
+      "displayName": "Configs",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "c_nearbySectionAPIKey"
+        },
+        {
+          "id": "c_searchExperienceAPIKey"
+        }
+      ]
+    },
+    {
+      "displayName": "Other",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Internal Use Only",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "folder"
+        },
+        {
+          "id": "labels"
+        }
+      ]
+    }
+  ]
+}
